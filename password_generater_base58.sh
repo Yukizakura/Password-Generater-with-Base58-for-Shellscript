@@ -36,4 +36,4 @@ while : ;do
 		break
 	fi
 done
-echo ${string[@]} | tr -d " "
+echo ${passwords[@]} | tr -d " "
