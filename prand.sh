@@ -9,8 +9,8 @@
 
 # input check
 pw_length=12  # default length
-if [[ -nz "$1" && "$1" > 3 ]]; then
-	pw_length="$1"
+if [[ -nz $1 && $1 -gt 3 ]]; then
+	pw_length=$1
 fi
 
 base58=(1 2 3 4 5 6 7 8 9 A B C D E F G H J K L M N P Q R S T U V W X Y Z a b c d e f g h i j k m n o p q r s t u v w x y z)
